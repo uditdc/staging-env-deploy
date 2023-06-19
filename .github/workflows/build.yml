@@ -29,6 +29,6 @@ jobs:
       - name: Blockless Action Setup
         uses: txlabs/github-action-blockless-setup@v0.0.6
         with:
-          BLOCKLESS_ENDPOINT_URL: ${{ secrets.GATEWAY_URL }}
+          BLOCKLESS_ENDPOINT_URL: ${{ secrets.BLOCKLESS_ENDPOINT_URL }}
       - name: Blockless Function Publish
         uses: txlabs/github-action-blockless-deploy@v0.0.3
